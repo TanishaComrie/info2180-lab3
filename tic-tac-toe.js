@@ -3,7 +3,5 @@ function tic_tac(){
     tab.classList.add("#board");
 }
 
-window.onload = function(){
-    tic_tac();
-}
+window.onload = tic_tac();
 
