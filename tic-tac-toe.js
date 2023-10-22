@@ -1,7 +1,11 @@
+window.onload = function(){
+    tic_tac();
+} 
+let n_Game = document.getElementsByClassName("btn");
+
 function tic_tac(){
-    let tab = document.getElementById("board");
-    tab.classList.add("#board");
+    const tab = document.querySelector("#board").classList;
+    tab.add("square");
 }
 
-window.onload = tic_tac();
 
