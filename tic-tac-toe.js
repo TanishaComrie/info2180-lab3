@@ -1,5 +1,5 @@
 window.onload = function(){
-    const tab = document.querySelectorAll("#board > div").classList;
+    const tab = document.querySelectorAll("#board > div");
     for (let i=0; i < tab.length; i++){
         tab[i].square;
 }
