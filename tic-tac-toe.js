@@ -1,6 +1,6 @@
 function tic_tac(){
     let tab = document.querySelector("board");
-    tab.classList.add("square");
+    tab.classList.add("board");
 }
 
 window.onload = function(){
