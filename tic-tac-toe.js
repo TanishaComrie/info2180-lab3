@@ -7,7 +7,7 @@ function tic_tac(){
     { const tab = document.getElementById("board").classList;
       tab.add("#board");
       const tile = tab.querySelectorAll("div").classList;
-      tile.add(".square");
+      tile.add("square");
     }
 }
 
