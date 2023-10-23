@@ -1,14 +1,11 @@
 window.onload = function(){
-    const tab = document.querySelectorAll("#board > div");
-    for (let i=0; i < tab.length; i++){
-        tab[i].square;
-}
+    tic_tac();   
 } 
 let n_Game = document.getElementsByClassName("btn");
 
 function tic_tac(){
-    {
-    
+    { const tab = document.querySelector("#board");
+      tab.add("#board");
     }
 }
 
