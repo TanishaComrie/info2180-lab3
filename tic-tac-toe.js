@@ -5,7 +5,7 @@ let n_Game = document.getElementsByClassName("btn");
 
 function tic_tac(){
     { const tab = document.getElementById("board");
-      tab.add("#board");
+      tab.add("square");
     }
 }
 
