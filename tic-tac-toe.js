@@ -4,7 +4,7 @@ window.onload = function(){
 let n_Game = document.getElementsByClassName("btn");
 
 function tic_tac(){
-    { const tab = document.getElementById("board").classList;
+    { const tab = document.getElementById("board");
       tab.add("#board");
       const tile = tab.querySelectorAll("div").classList;
       tile.add("square");
